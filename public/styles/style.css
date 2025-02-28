@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/Tiles/Grass/land_grass04.png);
+}
+.game {
+  width: 600px;
+  height: 600px;
+  background-image: url(../assets/Tiles/Asphalt_road/road_asphalt90.png);
+  background-size: 30px;
+  border: 8px solid rgb(255, 94, 0);
+  border-radius: 2rem;
+  position: relative;
+}
+
+.player {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.player-nick-box {
+  font-size: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.603);
+  margin-bottom: 2px;
+  padding: 0 2px;
+  color: white;
+}
+
+.player-box {
+  width: 30px;
+  height: 53px;
+  background-size: 100%;
+}
+
+.scoreboard {
+  max-height: 300px;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.488);
+  color: white;
+  padding: 0.5rem;
+}
+.point {
+  width: 30px;
+  height: 30px;
+  background-image: url(../assets/Objects/barrel_red.png);
+  background-size: cover;
+  position: absolute;
+}
+
+.tribune-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.tribune {
+  width: 200px;
+  height: 100px;
+  background-image: url(../assets/Objects/tribune_full.png);
+  background-size: cover;
+}
+
+.github-link {
+  margin-top: 0.4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.github-link > a {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.488);
+  padding: 0 0.4rem;
+}
